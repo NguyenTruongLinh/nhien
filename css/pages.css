@@ -21,3 +21,61 @@
 .banner-right {
     text-align: center;
 }
+
+.section-gap {
+    padding: 120px 0;
+}
+
+.filters-content ul{
+	overflow: hidden;
+}
+
+.filters-content ul li{
+	float: left;
+	width: calc(33.33% - 20px);
+	margin-right: 30px;
+}
+
+.filters-content ul li:last-child{
+	margin-right: 0;
+}
+
+.filters-content ul li img{
+	width: 100%;
+}
+
+.thumb {
+	position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.thumb .overlay-bg {
+    background: -moz-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+    background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+    background: -ms-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+}
+
+.thumb .overlay-bg {
+    opacity: 0;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.thumb:hover .overlay-bg{
+	opacity: .7;
+}
+
+.filters-content .p-inner {
+    padding: 20px 0;
+    text-align: center;
+}

@@ -49,6 +49,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #0056b3;
+}
+
 li{
     list-style: none;
 }

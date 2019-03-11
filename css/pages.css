@@ -36,7 +36,7 @@
 	margin-right: 30px;
 }
 
-.filters-content ul li:last-child{
+.filters-content ul li:nth-child(3n){
 	margin-right: 0;
 }
 

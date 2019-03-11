@@ -1,0 +1,23 @@
+.banner-area {
+    background: #f9f9ff;
+}
+
+.banner-left h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.banner-left h1 {
+    margin: 20px 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.banner-left .primary-btn:hover {
+    box-shadow: 0 20px 20px 0 rgba(132,144,255,.3);
+}
+
+.banner-right {
+    text-align: center;
+}

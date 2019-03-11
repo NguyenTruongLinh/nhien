@@ -1,15 +1,12 @@
 /*BOOSTRAP*/
 .row{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
+    flex-wrap: wrap;
 	margin-right: -15px;
 	margin-left: -15px;
 }
 
-.col-lg-2, .col-lg-5, .col-lg-6{
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-8, .col-lg-9, .col-lg-12{
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -22,6 +19,16 @@
     max-width: 16.66667%;
 }
 
+.col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
 .col-lg-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
@@ -30,6 +37,21 @@
 .col-lg-6{
 	flex: 0 0 50%;
     max-width: 50%;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .align-item-center{
@@ -60,6 +82,10 @@
     display: flex!important;
 }
 
+.flex-row {
+    flex-direction: row!important;
+}
+
 .text-center {
     text-align: center;
 }
@@ -79,6 +105,10 @@
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /*HEADER*/
@@ -176,6 +206,22 @@
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
 }
 
 .form-control {

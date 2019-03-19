@@ -45,13 +45,23 @@
 
 .filters-content ul li img{
 	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.filters-content .thumb{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
 }
 
 .relative {
 	position: relative;
 }
 
-.overlay {
+.filters-content .overlay {
     position: absolute;
     left: 0;
     right: 0;
@@ -724,7 +734,7 @@
 /*END BLOG DETAIL*/
 
 /*POPUP*/
-.overlay {
+#popup1.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -735,7 +745,7 @@
   visibility: hidden;
   opacity: 0;
 }
-.overlay:target {
+#popup1.overlay:target {
   visibility: visible;
   opacity: 1;
 }

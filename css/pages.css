@@ -616,6 +616,12 @@
     color: #777;
 }
 
+.post-content-area .feature-img{
+    width: 540px;
+    height: 252px;
+    overflow: hidden;
+}
+
 .single-post-area .feature-img{
     width: 730px;
     height: 340px;

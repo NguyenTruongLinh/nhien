@@ -270,9 +270,21 @@
     text-align: center;
 }
 
+.widget-wrap .user-info-widget .avatar{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .widget-wrap .user-info-widget img {
     vertical-align: middle;
     border-style: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .widget-wrap .user-info-widget a h4 {
@@ -763,5 +775,23 @@
   max-height: 30%;
   overflow: auto;
   margin-top: 10px;
+}
+
+.popup .content p{
+    margin-bottom: 0;
+}
+
+.popup .content ul .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.popup .content ul li p:first-child{
+    width: 20%;
+}
+
+.popup .content ul li p:last-child{
+    color: #303330;
+    width: 80%;
 }
 /*END POPUP*/

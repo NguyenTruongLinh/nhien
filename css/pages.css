@@ -134,6 +134,8 @@
 	font-size: 48px;
     font-weight: 700;
     color: #fff;
+    width: 750px;
+    margin: 0 auto;
 }
 
 .blog .banner p {
@@ -451,6 +453,8 @@
     font-size: 48px;
     font-weight: 600;
     color: #fff;
+    width: 750px;
+    margin: 0 auto;
 }
 
 .link-nav {
